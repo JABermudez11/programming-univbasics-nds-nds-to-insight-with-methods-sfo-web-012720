@@ -10,10 +10,6 @@ def gross_for_director(director_data)
     gross += directors_database[director_data][:movies][movies_index][:worldwide_gross]
     movies_index ++
   end
-  #while movies_index < directors_database[director_data][:movies].length do
-  #  gross += directors_database[director_data][:movies][movies_index]
-  #  movies_index ++
-  #end
   gross
 end
 
